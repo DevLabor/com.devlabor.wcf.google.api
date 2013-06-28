@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="de" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd">
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.module_google_services"><![CDATA[Google-Dienste aktivieren]]></item>
+        <item name="wcf.acp.option.module_google_services.description"><![CDATA[Aktiviert die Google-Dienste und API-Schnittstellen.]]></item>
+        <item name="wcf.acp.option.category.google"><![CDATA[Google-Dienste]]></item>
+        <item name="wcf.acp.option.category.google.analytics"><![CDATA[Analytics]]></item>
+        <item name="wcf.acp.option.category.google.translate"><![CDATA[Übersetzer]]></item>
+        <item name="wcf.acp.option.google_analytics_enabled"><![CDATA[Aktivieren?]]></item>
+        <item name="wcf.acp.option.google_analytics_anonymize_ip"><![CDATA[IP-Adressen anonymisieren?]]></item>
+        <item name="wcf.acp.option.google_analytics_tracking_code"><![CDATA[Tracking-Code]]></item>
+        <item name="wcf.acp.option.google_analytics_tracking_code.description"><![CDATA[Geben Sie die sogenannte Web-Property-ID im Format <strong>UA-XXXXX-Y</strong> oder <strong>UA-XXXXX-YY</strong> an. Mehr erfahren Sie unter <a href="https://support.google.com/analytics/answer/1008080?topic=1006226">Einrichtung des Web-Tracking-Codes</a>]]></item>
+        <item name="wcf.acp.option.google_translate_enabled"><![CDATA[Aktivieren?]]></item>
+        <item name="wcf.acp.option.google_translate_enabled.description"><![CDATA[Der Zugriff auf die API des Google Übersetzers ist kostenpflichtig. Mehr Informationen erhalten Sie unter <a href="https://developers.google.com/translate/v2/pricing?hl=de">Pricing</a>.]]></item>
+		<item name="wcf.acp.option.google_translate_api_key"><![CDATA[API-Schlüssel]]></item>
+    </category>
+
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.system"><![CDATA[System]]></item>
+		<item name="wcf.acp.group.option.category.user.system.google"><![CDATA[Google-Dienste]]></item>
+		<item name="wcf.acp.group.option.user.system.google.translate.canTranslate"><![CDATA[Kann Übersetzer benutzen]]></item>
+	</category>
+</language>

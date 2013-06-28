@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/options.xsd">
+    <import>
+        <categories>
+            <category name="google">
+                <parent></parent>
+                <options>module_google_services</options>
+            </category>
+			<category name="google.analytics">
+				<parent>google</parent>
+			</category>
+            <category name="google.translate">
+                <parent>google</parent>
+            </category>
+        </categories>
+
+        <options>
+            <!-- module -->
+            <option name="module_google_services">
+                <categoryname>module.system</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <!-- /module -->
+
+			<!-- Google Analytics -->
+            <option name="google_analytics_enabled">
+                <categoryname>google.analytics</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[google_analytics_tracking_code,google_analytics_anonymize_ip]]></enableoptions>
+            </option>
+            <option name="google_analytics_tracking_code">
+                <categoryname>google.analytics</categoryname>
+                <optiontype>text</optiontype>
+                <defaultvalue><![CDATA[]]></defaultvalue>
+            </option>
+            <option name="google_analytics_anonymize_ip">
+                <categoryname>google.analytics</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+			<!-- /Google Analytics -->
+
+			<!-- Google Translate -->
+			<option name="google_translate_enabled">
+				<categoryname>google.translate</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[google_translate_api_key]]></enableoptions>
+			</option>
+            <option name="google_translate_api_key">
+                <categoryname>google.translate</categoryname>
+                <optiontype>text</optiontype>
+                <defaultvalue><![CDATA[]]></defaultvalue>
+            </option>
+			<!-- /Google Translate -->
+        </options>
+    </import>
+</data>

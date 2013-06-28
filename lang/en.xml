@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="en" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd">
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.module_google_services"><![CDATA[Enable Google-Services]]></item>
+        <item name="wcf.acp.option.module_google_services.description"><![CDATA[Enables Google-Services and APIs.]]></item>
+        <item name="wcf.acp.option.category.google"><![CDATA[Google-Services]]></item>
+        <item name="wcf.acp.option.category.google.analytics"><![CDATA[Analytics]]></item>
+        <item name="wcf.acp.option.category.google.translate"><![CDATA[Translate]]></item>
+        <item name="wcf.acp.option.google_analytics_enabled"><![CDATA[Enable?]]></item>
+        <item name="wcf.acp.option.google_analytics_anonymize_ip"><![CDATA[Anonymize IP addresses?]]></item>
+        <item name="wcf.acp.option.google_analytics_tracking_code"><![CDATA[Tracking-Code]]></item>
+        <item name="wcf.acp.option.google_analytics_tracking_code.description"><![CDATA[Enter your Web-Property-ID in <strong>UA-XXXXX-Y</strong> or <strong>UA-XXXXX-YY</strong> format. Learn more at <a href="https://support.google.com/analytics/answer/1008080?hl=en">How to set up the web tracking code</a>]]></item>
+        <item name="wcf.acp.option.google_translate_enabled"><![CDATA[Enable?]]></item>
+        <item name="wcf.acp.option.google_translate_enabled.description"><![CDATA[Google Translate API is a paid service. Learn more at <a href="https://developers.google.com/translate/v2/pricing?hl=en">Pricing</a>.]]></item>
+		<item name="wcf.acp.option.google_translate_api_key"><![CDATA[API-Key]]></item>
+    </category>
+
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.system"><![CDATA[System]]></item>
+		<item name="wcf.acp.group.option.category.user.system.google"><![CDATA[Google-Services]]></item>
+		<item name="wcf.acp.group.option.user.system.google.translate.canTranslate"><![CDATA[Can use Translator]]></item>
+	</category>
+</language>
