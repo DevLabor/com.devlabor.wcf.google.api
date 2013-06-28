@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package name="com.devlabor.wcf.google.api" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
-    <packageinformation>
-        <packagename><![CDATA[Google Services Support]]></packagename>
-        <packagedescription><![CDATA[]]></packagedescription>
-        <version>1.0.0 Beta 1</version>
-        <date>2013-05-24</date>
+	<packageinformation>
+		<packagename><![CDATA[Google Services Support]]></packagename>
+		<packagedescription><![CDATA[]]></packagedescription>
+		<version>1.0.0 Beta 1</version>
+		<date>2013-05-24</date>
 		<plugin>com.woltlab.wcf</plugin>
-    </packageinformation>
+	</packageinformation>
 
-    <authorinformation>
-        <author><![CDATA[DevLabor UG (haftungsbeschränkt)]]></author>
-        <authorurl><![CDATA[http://www.devlabor.com]]></authorurl>
-    </authorinformation>
+	<authorinformation>
+		<author><![CDATA[DevLabor UG (haftungsbeschränkt)]]></author>
+		<authorurl><![CDATA[http://www.devlabor.com]]></authorurl>
+	</authorinformation>
 
-    <requiredpackages>
-        <requiredpackage minversion="2.0.0 Alpha 1">com.woltlab.wcf</requiredpackage>
-    </requiredpackages>
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0 Alpha 1">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
 
-    <instructions type="install">
-        <instruction type="file">files.tar</instruction>
-        <instruction type="template">templates.tar</instruction>
-		
-        <instruction type="option">option.xml</instruction>
-        <instruction type="userGroupOption">userGroupOption.xml</instruction>
-        <instruction type="templateListener">templateListener.xml</instruction>
-
+	<instructions type="install">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
+		<instruction type="templateListener">templateListener.xml</instruction>
 		<instruction type="language">lang/*.xml</instruction>
-		
 		<!-- @todo add maps -->
 		<!-- @todo add places -->
-    </instructions>
+	</instructions>
 </package>
